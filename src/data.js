@@ -54,6 +54,32 @@ import Agent10 from './assets/img/agents/agent10.png';
 import Agent11 from './assets/img/agents/agent11.png';
 import Agent12 from './assets/img/agents/agent12.png';
 
+
+export const faixaDePrecos = [
+  {
+    value: 'Qualquer valor'
+  },
+  {
+    value: '100000 - 130000'
+  },
+  {
+    value: '130000 - 160000'
+  },
+  {
+    value: '160000 - 190000'
+  },
+  {
+    value: '190000 - 220000'
+  },
+  {
+    value: '10000 - 30000'
+  },
+  {
+    value: '30000 - 40000'
+  }
+];
+
+
 export const housesData = [
   {
     id: 1,

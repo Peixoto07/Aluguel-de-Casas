@@ -37,12 +37,13 @@ export const HouseContextProvider = ({ children }) => {
   }, []);
 
   const handleClick = () => {
+    setloading(true);
     const precoMin = parseInt(preco.split(' ')[0]);
     const precoMax = parseInt(preco.split(' ')[2]);
   
     const isQualquerValor = (valor) => valor.split(' ').includes('Qualquer');
   
-    const filtraCasas = housesData.filter((casa) => {
+    const filtroCasas = housesData.filter((casa) => {
       const precoDasCasas = parseInt(casa.price);
   
       const atendeFiltroPais = isQualquerValor(pais) || casa.country === pais;
@@ -51,7 +52,15 @@ export const HouseContextProvider = ({ children }) => {
   
       return atendeFiltroPais && atendeFiltroTipo && atendeFiltroPreco;
     });
-  setCasas(filtraCasas);
+ 
+    setTimeout(()=>{
+      return(
+        filtroCasas.length < 1 ? setCasas([]) : 
+        setCasas(filtroCasas),
+        setloading(false)
+      );
+
+    },1000);
 
   };
   

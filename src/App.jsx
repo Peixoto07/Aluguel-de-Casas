@@ -10,9 +10,9 @@ function App() {
 
 
   return (
-    <div className=' max-w-[1224px] bg-white mx-auto'>
+    <div className=' bg-white mx-auto'>
       <Header />
-      <Routes>
+      <Routes >
         <Route path='/' element={<Home />} />
         <Route path='/property/:id' element=
           {<PropertyDetails />} />

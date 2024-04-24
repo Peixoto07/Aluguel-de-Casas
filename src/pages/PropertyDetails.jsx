@@ -16,10 +16,10 @@ const PropertyDetails = () => {
   });
 
   return (
-    <section>
+    <section className="mt-24 pt-8">
       <div className='container mx-auto min-h-[800px] mb-14'>
         <div className='flex flex-col lg:flex-row  lg:items-center lg:justify-between'>
-          <div className="flex flex-col lg:flex-row  lg:items-center lg:justify-between w-[74%] max-w-[768px] ">
+          <div className=" flex flex-col lg:flex-row  lg:items-center lg:justify-between w-[74%] xl:max-w-[768px] max-w-[628px] ">
 
             <div>
               <h2 className="text-2xl font-semibold">
@@ -34,11 +34,11 @@ const PropertyDetails = () => {
 
             <div className=" w-max flex gap-x-2 mb-4 lg:mb-0">
               <Badge className='bg-green-500' >{casa.type}</Badge>
-              <Badge className='bg-violet-500' >{casa.country}</Badge>
+              <Badge className='bg-violet-500' >{casa.city}</Badge>
             </div>
           </div>
-          <div className="text-3xl font-semibold text-violet-600">
-            $ {casa.price}
+          <div className="text-3xl font-semibold lg:mb-0 mb-4 text-violet-600">
+            R${casa.price}
           </div>
         </div>
         <div className='flex flex-col items-start gap-8 lg:flex-row'>

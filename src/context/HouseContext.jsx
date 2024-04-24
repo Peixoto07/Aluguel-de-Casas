@@ -16,10 +16,16 @@ export const HouseContextProvider = ({ children }) => {
   const [preco, setPreco] = useState('Qualquer valor');
   const [precos, setPrecos] = useState([]);
   const [loading, setloading] = useState(false);
+  const [isSignUp, setIsSignUp] = useState(false); 
 
+  const [showLoginPopup, setShowLoginPopup] = useState(false);
+
+  const handleLoginButtonClick = () => {
+    setShowLoginPopup(!showLoginPopup);
+  };
 
   useEffect(() => {
-    const todosPaises = casas.map((casa) => casa.country);
+    const todosPaises = casas.map((casa) => casa.city);
     const paisesUnicos = ['Qualquer localização', ...new Set(todosPaises)];
 
     const todosTipos = casas.map((casa) => casa.type);
@@ -46,7 +52,7 @@ export const HouseContextProvider = ({ children }) => {
     const filtroCasas = housesData.filter((casa) => {
       const precoDasCasas = parseInt(casa.price);
   
-      const atendeFiltroPais = isQualquerValor(pais) || casa.country === pais;
+      const atendeFiltroPais = isQualquerValor(pais) || casa.city === pais;
       const atendeFiltroTipo = isQualquerValor(propriedade) || casa.type === propriedade;
       const atendeFiltroPreco = isQualquerValor(preco) || (precoDasCasas >= precoMin && precoDasCasas <= precoMax);
   
@@ -83,6 +89,10 @@ const valores = {
   loading,
   setloading,
   handleClick,
+  showLoginPopup,
+  handleLoginButtonClick,
+  isSignUp,
+  setIsSignUp
 };
 return (
   <HouseContext.Provider value={valores}>

@@ -3,7 +3,7 @@ import HouseList from '../components/HouseList';
 
 const Home = () => {
   return (
-<div className='min-h-[1800px] '>
+<div className='mt-24 pt-8 min-h-[1800px] '>
   <Banner/>
   <HouseList/>
 </div>

@@ -2,7 +2,7 @@
 
 
 const SkeletonCard = () => (
-  <div className='bg-white p-5 gap-4 grid grid-cols-1 rounded-lg bg-slate-50 w-full max-w-[352px] mx-auto cursor-pointer animate-pulse'>
+  <div className='mt-8 p-5 gap-4 grid grid-cols-1 rounded-lg bg-slate-50 w-full max-w-[352px] mx-auto cursor-pointer animate-pulse'>
     <div className='bg-gray-300 h-40 w-full rounded-lg'></div>
     
     <div className='text-lg font-semibold max-w-[260px] bg-gray-300 h-6 rounded-lg'></div>

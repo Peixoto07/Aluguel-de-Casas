@@ -2,7 +2,7 @@ import { BsHouseX } from "react-icons/bs";
 
 const NotFoundPage = () => {
   return (
-    <div className="flex justify-center h-screen gap-4">
+    <div className="flex justify-center h-screen gap-4 mt-40">
       <BsHouseX className=" size-32 text-gray-200 " />
       <div className="flex flex-col items-start">
         <h1 className=" text-6xl font-bold text-gray-400 mb-2">404</h1>

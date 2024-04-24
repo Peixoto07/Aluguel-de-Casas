@@ -11,9 +11,9 @@ px-4 lg:px-0'>
 
           <h1 className='text-4xl lg:text-[58px]
 font-semibold leading-none mb-6'>
-            <span className='text-violet-700' >Rent </span>
-            Your Dream House With
-            Us.
+            O <span className='text-violet-700' >Aluguel </span>
+            Dos Sonhos Está Aqui.
+          
           </h1>
           <p className='max-w-[480px] mb-8'>
             Lorem ipsum dolor sit amet consectetur

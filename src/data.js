@@ -93,7 +93,7 @@ export const housesData = [
     address: '7240C Argyle St. Lawndale, CA 90260',
     bedrooms: '6',
     bathrooms: '3',
-    surface: '4200 sq ft',
+    surface: '4200 m2',
     year: '2016',
     price: '110000',
     agent: {
@@ -114,7 +114,7 @@ export const housesData = [
     address: '798 Talbot St. Bridgewater, NJ 08807',
     bedrooms: '6',
     bathrooms: '3',
-    surface: '4200 sq ft',
+    surface: '4200 m2',
     year: '2016',
     price: '140000',
     agent: {
@@ -135,7 +135,7 @@ export const housesData = [
     address: '2 Glen Creek St. Alexandria, VA 22304',
     bedrooms: '6',
     bathrooms: '3',
-    surface: '4200 sq ft',
+    surface: '4200 m2',
     year: '2016',
     price: '170000',
     agent: {
@@ -156,7 +156,7 @@ export const housesData = [
     address: '84 Woodland St. Cocoa, FL 32927',
     bedrooms: '6',
     bathrooms: '3',
-    surface: '4200 sq ft',
+    surface: '4200 m2',
     year: '2016',
     price: '200000',
     agent: {
@@ -177,7 +177,7 @@ export const housesData = [
     address: '28 Westport Dr. Warminster, PA 18974',
     bedrooms: '5',
     bathrooms: '3',
-    surface: '4200 sq ft',
+    surface: '4200 m2',
     year: '2015',
     price: '210000',
     agent: {
@@ -198,7 +198,7 @@ export const housesData = [
     address: '32 Pawnee Street Butte, MT 59701',
     bedrooms: '6',
     bathrooms: '3',
-    surface: '6200 sq ft',
+    surface: '6200 m2',
     year: '2014',
     price: '220000',
     agent: {
@@ -219,7 +219,7 @@ export const housesData = [
     address: '32 Pawnee Street Butte, MT 59701',
     bedrooms: '2',
     bathrooms: '1',
-    surface: '1200 sq ft',
+    surface: '1200 m2',
     year: '2012',
     price: '20000',
     agent: {
@@ -240,7 +240,7 @@ export const housesData = [
     address: '28 Westport Dr. Warminster, PA 18974',
     bedrooms: '3',
     bathrooms: '1',
-    surface: '1000 sq ft',
+    surface: '1000 m2',
     year: '2011',
     price: '30000',
     agent: {
@@ -261,7 +261,7 @@ export const housesData = [
     address: '84 Woodland St. Cocoa, FL 32927',
     bedrooms: '2',
     bathrooms: '1',
-    surface: '1100 sq ft',
+    surface: '1100 m2',
     year: '2011',
     price: '40000',
     agent: {
@@ -282,7 +282,7 @@ export const housesData = [
     address: '7240C Argyle St. Lawndale, CA 90260',
     bedrooms: '5',
     bathrooms: '3',
-    surface: '3200 sq ft',
+    surface: '3200 m2',
     year: '2015',
     price: '117000',
     agent: {
@@ -303,7 +303,7 @@ export const housesData = [
     address: '798 Talbot St. Bridgewater, NJ 08807',
     bedrooms: '7',
     bathrooms: '2',
-    surface: '2200 sq ft',
+    surface: '2200 m2',
     year: '2019',
     price: '145000',
     agent: {
@@ -324,7 +324,7 @@ export const housesData = [
     address: '2 Glen Creek St. Alexandria, VA 22304',
     bedrooms: '4',
     bathrooms: '4',
-    surface: '4600 sq ft',
+    surface: '4600 m2',
     year: '2015',
     price: '139000',
     agent: {
@@ -345,7 +345,7 @@ export const housesData = [
     address: '84 Woodland St. Cocoa, FL 32927',
     bedrooms: '5',
     bathrooms: '2',
-    surface: '5200 sq ft',
+    surface: '5200 m2',
     year: '2014',
     price: '180000',
     agent: {
@@ -366,7 +366,7 @@ export const housesData = [
     address: '28 Westport Dr. Warminster, PA 18974',
     bedrooms: '5',
     bathrooms: '2',
-    surface: '3200 sq ft',
+    surface: '3200 m2',
     year: '2011',
     price: '213000',
     agent: {
@@ -387,7 +387,7 @@ export const housesData = [
     address: '32 Pawnee Street Butte, MT 59701',
     bedrooms: '4',
     bathrooms: '3',
-    surface: '5200 sq ft',
+    surface: '5200 m2',
     year: '2013',
     price: '221000',
     agent: {
@@ -408,7 +408,7 @@ export const housesData = [
     address: '32 Pawnee Street Butte, MT 59701',
     bedrooms: '2',
     bathrooms: '1',
-    surface: '1300 sq ft',
+    surface: '1300 m2',
     year: '2011',
     price: '21000',
     agent: {
@@ -429,7 +429,7 @@ export const housesData = [
     address: '28 Westport Dr. Warminster, PA 18974',
     bedrooms: '3',
     bathrooms: '1',
-    surface: '1000 sq ft',
+    surface: '1000 m2',
     year: '2012',
     price: '32000',
     agent: {
@@ -450,7 +450,7 @@ export const housesData = [
     address: '84 Woodland St. Cocoa, FL 32927',
     bedrooms: '3',
     bathrooms: '1',
-    surface: '1200 sq ft',
+    surface: '1200 m2',
     year: '2010',
     price: '38000',
     agent: {

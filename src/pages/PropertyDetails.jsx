@@ -16,7 +16,7 @@ const PropertyDetails = () => {
   });
 
   return (
-    <section className="mt-24 pt-8">
+    <section className="pt-8 min-h-screen">
       <div className='container mx-auto min-h-[800px] mb-14'>
         <div className='flex flex-col lg:flex-row  lg:items-center lg:justify-between'>
           <div className=" flex flex-col lg:flex-row  lg:items-center lg:justify-between w-[74%] xl:max-w-[768px] max-w-[628px] ">
